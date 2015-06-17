@@ -100,7 +100,7 @@ module Gravtastic
 
     # Returns either Gravatar's secure hostname or not.
     def gravatar_hostname(secure)
-      'http' + (secure ? 's://secure.' : '://') + 'gravatar.com/avatar/'
+      'http' + (secure ? 's://secure.' : '://') + 'gravatar.duoshuo.com/avatar/'
     end
 
     # Munges the ID and the filetype into one. Like "abc123.png"
